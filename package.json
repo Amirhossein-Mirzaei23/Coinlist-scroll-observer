@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^1.7.0",
+    "datatables.net-dt": "^2.0.7",
+    "intersection-observer": "^0.12.2",
+    "nuxt": "^3.11.2",
+    "nuxt-socket-io": "^3.0.13",
+    "socket.io": "^4.7.5",
+    "toastr": "^2.1.4",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2",
+    "vue-virtual-scroll-list": "^2.3.5"
+  },
+  "devDependencies": {
+    "@vueuse/core": "^10.9.0",
+    "@vueuse/nuxt": "^10.9.0",
+    "autoprefixer": "^10.4.19",
+    "nuxt-icon": "^0.6.10",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
