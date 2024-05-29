@@ -9,7 +9,6 @@
           <div class="w-full text-center " ><span  >جفت</span></div>
         </thead>
   <!---table header---->
-  {{ props.isConected }}
         <tbody >  
          
             <tr
